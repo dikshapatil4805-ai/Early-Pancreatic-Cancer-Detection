@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Medical datasets
+data/raw/
+data/processed/
+data/interim/
+
+# Medical images
+*.dcm
+*.nii
+*.nii.gz
+
+# Large archives
+*.zip
+*.tar
+*.gz
+
+# Trained models
+*.pth
+*.pt
+*.onnx
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
