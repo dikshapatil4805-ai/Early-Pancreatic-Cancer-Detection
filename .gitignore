@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Large raw and processed datasets
+data/raw/
+data/processed/
+
+# Trained model files
+02_ct_model/saved_models/*.pth
+
+# System files
+.DS_Store
+Thumbs.db
