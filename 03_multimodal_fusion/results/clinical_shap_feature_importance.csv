@@ -1,0 +1,14 @@
+feature,mean_abs_shap
+categorical__scanner_Philips,0.06961531465827953
+categorical__scanner_SIEMENS,0.06637945499454627
+categorical__scanner_TOSHIBA,0.05160547353441128
+numeric__patient_age_years,0.04257234411693412
+categorical__patient_sex_M,0.03779650960234225
+categorical__patient_sex_F,0.021107929655706972
+categorical__patient_sex_Unknown,0.011420664206068031
+categorical__scanner_Unknown,0.006860609789993617
+missingness__scanner_missing,0.0056749883388821035
+missingness__sex_missing,0.004159377947403117
+categorical__scanner_GE MEDICAL SYSTEMS,0.0013680225199367859
+missingness__age_missing,0.001230227188719437
+categorical__scanner_Canon Medical Systems,0.0
