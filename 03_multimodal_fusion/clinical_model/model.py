@@ -27,8 +27,11 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay,
 )
 
-from .data_loader import prepare_clinical_data
-
+try:
+    from .data_loader import prepare_clinical_data
+except ImportError:
+    from data_loader import prepare_clinical_data
+    
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RESULTS_DIR = PROJECT_ROOT / "03_multimodal_fusion" / "results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
