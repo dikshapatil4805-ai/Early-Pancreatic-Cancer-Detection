@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2
+streamlit
+requests
+pytest
+httpx
+numpy
+pandas
+scikit-learn
+matplotlib
+pydicom
+nibabel
+SimpleITK
