@@ -1,0 +1,66 @@
+{
+  "method": "Logistic regression coefficients and encoded-feature log-odds contributions",
+  "model_path": "01_data_preprocessing\\clinical_baseline\\clinical_logistic_baseline.joblib",
+  "features_used": [
+    "patient_age_years",
+    "patient_sex",
+    "scanner"
+  ],
+  "encoded_features": 10,
+  "sample_rows_explained": 10,
+  "most_positive_coefficients": [
+    {
+      "encoded_feature": "categorical__scanner_Philips",
+      "coefficient": 1.4362128521518502,
+      "odds_ratio_per_encoded_unit": 4.204741647383616
+    },
+    {
+      "encoded_feature": "categorical__scanner_Canon Medical Systems",
+      "coefficient": 1.2115230640718415,
+      "odds_ratio_per_encoded_unit": 3.358596116093934
+    },
+    {
+      "encoded_feature": "numeric__patient_age_years",
+      "coefficient": 0.351930904646067,
+      "odds_ratio_per_encoded_unit": 1.4218102798400076
+    },
+    {
+      "encoded_feature": "categorical__patient_sex_F",
+      "coefficient": 0.23884824321538026,
+      "odds_ratio_per_encoded_unit": 1.2697858233477288
+    },
+    {
+      "encoded_feature": "categorical__scanner_GE MEDICAL SYSTEMS",
+      "coefficient": 0.08037937416277602,
+      "odds_ratio_per_encoded_unit": 1.083698116765076
+    }
+  ],
+  "most_negative_coefficients": [
+    {
+      "encoded_feature": "categorical__scanner_SIEMENS",
+      "coefficient": -1.1834827109809838,
+      "odds_ratio_per_encoded_unit": 0.3062104369367612
+    },
+    {
+      "encoded_feature": "categorical__scanner_TOSHIBA",
+      "coefficient": -1.0279003731912706,
+      "odds_ratio_per_encoded_unit": 0.35775732942608307
+    },
+    {
+      "encoded_feature": "categorical__scanner_Unknown",
+      "coefficient": -0.270671886734199,
+      "odds_ratio_per_encoded_unit": 0.7628667620497483
+    },
+    {
+      "encoded_feature": "categorical__patient_sex_Unknown",
+      "coefficient": -0.03675427340262248,
+      "odds_ratio_per_encoded_unit": 0.9639129653032844
+    },
+    {
+      "encoded_feature": "categorical__patient_sex_M",
+      "coefficient": 0.04396634966726258,
+      "odds_ratio_per_encoded_unit": 1.0449471914761306
+    }
+  ],
+  "interpretation_warning": "These are associations learned by a research baseline, not causal effects or validated individual medical risk explanations. Categorical coefficients are relative to the encoder's reference coding; age is standardized."
+}

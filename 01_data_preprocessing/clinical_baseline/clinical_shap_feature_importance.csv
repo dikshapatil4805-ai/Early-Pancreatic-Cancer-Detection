@@ -1,0 +1,4 @@
+feature,mean_absolute_shap_value
+scanner,0.12389833993569178
+patient_age_years,0.0557961040618767
+patient_sex,0.021101115433707417

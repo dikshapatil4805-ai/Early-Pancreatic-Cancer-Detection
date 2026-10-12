@@ -1,0 +1,15 @@
+{
+  "method": "SHAP KernelExplainer",
+  "model": "Existing clinical LogisticRegression pipeline",
+  "explained_split": "test",
+  "explained_examples": 100,
+  "features": [
+    "patient_age_years",
+    "patient_sex",
+    "scanner"
+  ],
+  "output": "Predicted probability for the dataset PDAC label",
+  "baseline_value": 0.4403282887873927,
+  "warning": "Research explanation only. SHAP describes model behavior, not medical causation or a validated individual cancer risk.",
+  "shap_version": "0.51.0"
+}

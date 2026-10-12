@@ -1,0 +1,28 @@
+{
+  "model": "LogisticRegression",
+  "features": [
+    "patient_age_years",
+    "patient_sex",
+    "scanner"
+  ],
+  "target": "target_pdac",
+  "threshold_selected_on_validation": 0.49999999999999994,
+  "validation_f1_at_selected_threshold": 0.6220095693779905,
+  "test_rows": 335,
+  "test_positive_cases": 101,
+  "test_negative_cases": 234,
+  "test_accuracy": 0.7373134328358208,
+  "test_precision": 0.5684210526315789,
+  "test_recall_sensitivity": 0.5346534653465347,
+  "test_specificity": 0.8247863247863247,
+  "test_f1": 0.5510204081632653,
+  "test_roc_auc": 0.7536811373445037,
+  "test_average_precision_pr_auc": 0.5849253440759054,
+  "test_confusion_matrix": {
+    "true_negative": 193,
+    "false_positive": 41,
+    "false_negative": 47,
+    "true_positive": 54
+  },
+  "warning": "Research baseline only; not validated for clinical use or early-stage detection."
+}
